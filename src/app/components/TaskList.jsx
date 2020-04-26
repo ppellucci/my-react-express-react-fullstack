@@ -11,7 +11,7 @@ export const TaskList = ({ tasks, name, id, createNewTask }) => (
         <div>
             {tasks.map(task => (
                 <Link to={`/task/${task.id}`} key={task.id}>
-                    <div>{task.name}</div>
+                    <div className="card p-2 mt-2">{task.name}</div>
                 </Link>))}
         </div>
         <button onClick={() => createNewTask(id)} className="btn btn-primary btn-block mt-2"> Add New</button>
