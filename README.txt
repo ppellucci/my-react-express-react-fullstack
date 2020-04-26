@@ -12,3 +12,11 @@ create server/defaultState.js
 
 npm install --save redux@4.0.0
 npm install --save react@16.4.2 react-dom@16.5.0 react-redux@5.0.7
+
+npm install --react-router-dom@4.3.1 --save
+npm install --save history@4.7.2
+
+//full talk about Redux Saga course
+
+npm install --save redux-logger@3.0.6 redux-saga@0.16.2
+npm install --save uuid
